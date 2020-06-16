@@ -23,15 +23,50 @@ header {
     background-position: center;
 }
 h1{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
 }
 .text-box-hero {
     position: absolute;
     left: 50%;
     top: 50%;
     /*https://www.w3schools.com/cssref/playit.asp?filename=playcss_transform_translate*/
-    transform: translate(-50%,-50%);
+    transform: translate(-60%,-50%);
 }
-.text-box-hero h1 {
-    color: white;
+
+.btn:link , .btn:visited {
+    display: inline-block;
+    font-weight: 300;
+    border: 1px solid #e67e22;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 200px;
+    text-decoration: none;
+    /*https://www.w3schools.com/css/css3_transitions.asp*/
+    transition: color 0.2s, border 0.2s,  background 0.2s ; 
 }
+
+.btn-full:link, .btn-full:visited {
+    color: #fff;
+    background-color: #e67e22;
+}
+
+.btn-ghost:link, .btn-ghost:visited {
+    color: #e67e22;
+}
+.btn-full:hover, .btn-full:active {
+    color: #fff;
+    background-color: #b05d14;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+    color: #fff;
+    background-color: #b05d14;
+}
+
