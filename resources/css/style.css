@@ -19,6 +19,17 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+.clearfix { zoom: 1 }
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '.';
+    height: 0;
+    visibility: hidden;
+
+}
+    
+}
 /*---------------------------------------*/
 /*REUSABLE COMPONENT*/
 /*---------------------------------------*/
@@ -191,23 +202,48 @@ i {
 /*-----------------------------*/
 /*----------How it works---------*/
 /*-----------------------------*/
-.how-it-works {
-    width: 100%;
-    margin: 40px 0;
+.steps-box:first-child {
+    box-sizing: border-box;
+    padding-right: 5%;
+    margin-top: 30px;
+    text-align: right;
+}
+.steps-box:last-child {
+    box-sizing: border-box;
+    padding-left: 3%;
+    text-align: left;
+    margin-top: 50px;
 }
 
-.app-work {
-    margin-left: 20%;
-    width: 80%;
-}
 
-.title-work-img {
-    width: 50%;
-    float: left;
-}
-.title-work-img img {
-    width: 50%;
+.steps-box img {
+    width: 40%;
     height: auto;
 }
-
-
+.work-step {
+    margin-bottom: 50px;
+}
+.work-step:last-of-type {
+    margin-bottom: 80px;
+}
+.work-step div {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    padding: 10px;
+    font-size: 150%;
+    border: 2px solid orange;
+    border-radius: 50%;
+    color: orange;
+}
+.work-step p {
+    padding-top: 10px;
+}
+.app-store img {
+    width: auto;
+    height: 50px;
+    margin-right: 40px;
+}
