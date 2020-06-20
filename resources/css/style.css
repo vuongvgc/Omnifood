@@ -270,3 +270,40 @@ i {
     color: #e67e22;
     text-underline-position: under;
 }
+/*-----------------------------*/
+/*---customer-testimonials-----*/
+/*-----------------------------*/
+
+.customer-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: #fff;
+    margin: 100px 0;
+    padding-top: 40px;
+}
+
+
+
+.quote {
+    font-size: 200%;
+}
+.info-custormer img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.info-custormer p {
+    padding: 10px 5px;
+    float: left;
+}
+
+.info-custormer {
+    display: block;
+    margin: 15px 0;
+}
+
+.customer-box {
+    font-style: italic;
+}
