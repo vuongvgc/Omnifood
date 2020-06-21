@@ -28,8 +28,6 @@ html {
     visibility: hidden;
 
 }
-    
-}
 /*---------------------------------------*/
 /*REUSABLE COMPONENT*/
 /*---------------------------------------*/
@@ -41,8 +39,8 @@ h1 {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 20px;
-    color: #fff;
-    font-size: 240%;
+    color: #fff ;
+    font-size: 200%;
     letter-spacing: 1px;
     word-spacing: 4px;
 }
@@ -205,6 +203,9 @@ i {
 /*-----------------------------*/
 /*----------How it works-------*/
 /*-----------------------------*/
+.section-work {
+    background-color: #f4f4f4;
+}
 .steps-box:first-child {
     box-sizing: border-box;
     padding-right: 5%;
@@ -283,9 +284,6 @@ i {
     margin: 100px 0;
     padding-top: 40px;
 }
-
-
-
 .quote {
     font-size: 200%;
 }
@@ -307,3 +305,60 @@ i {
 .customer-box {
     font-style: italic;
 }
+/*-----------------------------*/
+/*---PRICE AND PLAN------------*/
+/*-----------------------------*/
+
+.price-box ul {
+    list-style-type: none;
+}
+.price-box i {
+    font-size: 100%;
+    padding-right: 5px;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 200;
+    color: orange;
+}
+.plan-price span {
+    font-size: 18px;
+}
+
+.plan-price-meal {
+    padding-top: 15px;
+    font-size: 18px;
+}
+.section-pricing-plans {
+    background-color: #f4f4f4;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+.price {
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.plan-meals {
+    background-color: white;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 90%;
+}
+
+.sign-up-btn {
+    background-color: white;
+    padding: 10px 25%;
+    margin-top: 5px;
+    
+}
+/*-----------------------------*/
+/*---Contact form--------------*/
+/*-----------------------------*/
+
+
+
+
