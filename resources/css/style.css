@@ -70,7 +70,8 @@ h2::after {
 }
 
 /*-------------BUTTONS-----------*/
-.btn:link , .btn:visited {
+.btn:link , .btn:visited,
+input[type=submit] {
     display: inline-block;
     font-weight: 300;
     border: 1px solid #e67e22;
@@ -81,7 +82,8 @@ h2::after {
     transition: color 0.2s, border 0.2s,  background 0.2s ; 
 }
 
-.btn-full:link, .btn-full:visited {
+.btn-full:link, .btn-full:visited,
+input[type=submit] {
     color: #fff;
     background-color: #e67e22;
 }
@@ -89,7 +91,8 @@ h2::after {
 .btn-ghost:link, .btn-ghost:visited {
     color: #e67e22;
 }
-.btn-full:hover, .btn-full:active {
+.btn-full:hover, .btn-full:active, 
+input[type=submit]:hover, input[type=submit]:active {
     color: #fff;
     background-color: #b05d14;
 }
@@ -379,17 +382,21 @@ i {
 /*-----------------------------*/
 /*---Contact form--------------*/
 /*-----------------------------*/
-.contact-box {
-    width: 70%;
-    padding: 10px auto;
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
 }
-.contact-box label {
-    width: 30%;
-    display: block;
-    text-align: left;
-    margin-right: 5%;
+input[type=text],
+input[type=email],
+textarea, select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
 }
-.contact-box input {
-    
-    width: 35%;   
+select {
+    width: 103%;
 }
+/*-----------------------------*/
+/*---Footer--------------*/
+/*-----------------------------*/
